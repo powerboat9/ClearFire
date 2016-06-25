@@ -14,6 +14,13 @@ local keywords = {
     ["while"] = true
 }
 
+local operations = {
+    ["+"] = true, ["-"] = true, ["*"] = true, ["/"] = true, ["%"] = true, ["^"] = true, ["#"] = true,
+    ["=="] = true, ["~="] = true, ["<="] = true, [">="] = true, ["<"] = true, [">"] = true, ["="] = true,
+    ["("] = true, [")"] = true, ["{"] = true, ["}"] = true, ["["] = true, ["]"] = true, [";"] = true,
+    [":"] = true, [","] = true, ["."] = true, [".."] = true, ["..."] = true
+}
+
 local lines = {}
 local word = ""
 
