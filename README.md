@@ -1,0 +1,2 @@
+# ClearFire
+A lua deobfuscator
