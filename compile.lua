@@ -27,5 +27,6 @@ local word = ""
 local isInString, isEscaping = fasle, false
 for v = data:gfind(".") do
     if v:find("%s") and (not isInString) then
+        local type = 
         lines[#lines + 1] = {word
         word = ""
